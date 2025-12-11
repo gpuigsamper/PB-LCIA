@@ -3,10 +3,6 @@
   amount: 2.49e-14
 
 - name: Carbon disulfide
-  categories: air::lower stratosphere + upper troposphere
-  amount: 2.49e-14
-
-- name: Carbon disulfide
   categories: air::non-urban air or from high stacks
   amount: 2.49e-14
 
@@ -18,16 +14,12 @@
   categories: air
   amount: 2.49e-14
 
-- name: Elemental carbon
+- name: Carbon
   categories: air::urban air close to ground
   amount: 1.07e-13
 
 - name: Nitrate
   categories: air::low population density, long-term
-  amount: 9.73e-14
-
-- name: Nitrate
-  categories: air::lower stratosphere + upper troposphere
   amount: 9.73e-14
 
 - name: Nitrate
@@ -110,10 +102,6 @@
   amount: 9.69e-15
 
 - name: Particulate Matter, > 10 um
-  categories: air::lower stratosphere + upper troposphere
-  amount: 9.69e-15
-
-- name: Particulate Matter, > 10 um
   categories: air::non-urban air or from high stacks
   amount: 9.69e-15
 
@@ -130,10 +118,6 @@
   amount: 5.2e-13
 
 - name: Particulate Matter, > 2.5 um and < 10um
-  categories: air::lower stratosphere + upper troposphere
-  amount: 5.2e-13
-
-- name: Particulate Matter, > 2.5 um and < 10um
   categories: air::non-urban air or from high stacks
   amount: 5.2e-13
 
@@ -147,10 +131,6 @@
 
 - name: Sulfate
   categories: air::low population density, long-term
-  amount: 1.67e-13
-
-- name: Sulfate
-  categories: air::lower stratosphere + upper troposphere
   amount: 1.67e-13
 
 - name: Sulfate

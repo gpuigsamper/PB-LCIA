@@ -371,7 +371,7 @@ def add_aesa_pbs(verbose=True):
             method.apply_strategies(
                 method.strategies + [drop_empty_lines], verbose=verbose
             )
-
+        
         # confirm that everything is correctly linked
         assert (
             len(list(method.unlinked)) == 0

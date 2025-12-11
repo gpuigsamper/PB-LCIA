@@ -27,10 +27,6 @@
   amount: 2.69e-11
 
 - name: Carbon dioxide, from soil or biomass stock
-  categories: air::lower stratosphere + upper troposphere
-  amount: 2.69e-11
-
-- name: Carbon dioxide, from soil or biomass stock
   categories: air::non-urban air or from high stacks
   amount: 2.69e-11
 
@@ -47,10 +43,6 @@
   amount: 0.0
 
 - name: Carbon dioxide, non-fossil
-  categories: air::lower stratosphere + upper troposphere
-  amount: 0.0
-
-- name: Carbon dioxide, non-fossil
   categories: air::non-urban air or from high stacks
   amount: 0.0
 
@@ -67,10 +59,6 @@
   amount: 4.23e-11
 
 - name: Carbon monoxide, fossil
-  categories: air::lower stratosphere + upper troposphere
-  amount: 4.23e-11
-
-- name: Carbon monoxide, fossil
   categories: air::non-urban air or from high stacks
   amount: 4.23e-11
 
@@ -87,10 +75,6 @@
   amount: 4.23e-11
 
 - name: Carbon monoxide, non-fossil
-  categories: air::lower stratosphere + upper troposphere
-  amount: 4.23e-11
-
-- name: Carbon monoxide, non-fossil
   categories: air::non-urban air or from high stacks
   amount: 4.23e-11
 
@@ -107,10 +91,6 @@
   amount: 7.4e-11
 
 - name: Methane, fossil
-  categories: air::lower stratosphere + upper troposphere
-  amount: 7.4e-11
-
-- name: Methane, fossil
   categories: air::non-urban air or from high stacks
   amount: 7.4e-11
 
@@ -124,10 +104,6 @@
 
 - name: Methane, non-fossil
   categories: air::low population density, long-term
-  amount: 7.4e-11
-
-- name: Methane, non-fossil
-  categories: air::lower stratosphere + upper troposphere
   amount: 7.4e-11
 
 - name: Methane, non-fossil

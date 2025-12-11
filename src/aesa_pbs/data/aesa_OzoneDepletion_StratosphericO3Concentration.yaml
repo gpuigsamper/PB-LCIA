@@ -7,10 +7,6 @@
   amount: 1.41e-10
 
 - name: Dinitrogen monoxide
-  categories: air::lower stratosphere + upper troposphere
-  amount: 1.41e-10
-
-- name: Dinitrogen monoxide
   categories: air::non-urban air or from high stacks
   amount: 1.41e-10
 
@@ -18,123 +14,99 @@
   categories: air::urban air close to ground
   amount: 1.41e-10
 
-- name: Ethane, 1,1,1-trichloro-, HCFC-140
+- name: 1,1,1-Trichloroethane
   categories: air
   amount: 1.32e-09
 
-- name: Ethane, 1,1,1-trichloro-, HCFC-140
+- name: 1,1,1-Trichloroethane
   categories: air::low population density, long-term
   amount: 1.32e-09
 
-- name: Ethane, 1,1,1-trichloro-, HCFC-140
-  categories: air::lower stratosphere + upper troposphere
-  amount: 1.32e-09
-
-- name: Ethane, 1,1,1-trichloro-, HCFC-140
+- name: 1,1,1-Trichloroethane
   categories: air::non-urban air or from high stacks
   amount: 1.32e-09
 
-- name: Ethane, 1,1,1-trichloro-, HCFC-140
+- name: 1,1,1-Trichloroethane
   categories: air::urban air close to ground
   amount: 1.32e-09
 
-- name: Ethane, 1,1,2-trichloro-1,2,2-trifluoro-, CFC-113
+- name: 1,1,2-Trichloro-1,2,2-trifluoroethane
   categories: air
   amount: 4.91e-09
 
-- name: Ethane, 1,1,2-trichloro-1,2,2-trifluoro-, CFC-113
+- name: 1,1,2-Trichloro-1,2,2-trifluoroethane
   categories: air::low population density, long-term
   amount: 4.91e-09
 
-- name: Ethane, 1,1,2-trichloro-1,2,2-trifluoro-, CFC-113
-  categories: air::lower stratosphere + upper troposphere
-  amount: 4.91e-09
-
-- name: Ethane, 1,1,2-trichloro-1,2,2-trifluoro-, CFC-113
+- name: 1,1,2-Trichloro-1,2,2-trifluoroethane
   categories: air::non-urban air or from high stacks
   amount: 4.91e-09
 
-- name: Ethane, 1,1,2-trichloro-1,2,2-trifluoro-, CFC-113
+- name: 1,1,2-Trichloro-1,2,2-trifluoroethane
   categories: air::urban air close to ground
   amount: 4.91e-09
 
-- name: Ethane, 1,1-dichloro-1-fluoro-, HCFC-141b
+- name: 1,1-Dichloro-1-fluoroethane
   categories: air
   amount: 1.07e-09
 
-- name: Ethane, 1,1-dichloro-1-fluoro-, HCFC-141b
+- name: 1,1-Dichloro-1-fluoroethane
   categories: air::low population density, long-term
   amount: 1.07e-09
 
-- name: Ethane, 1,1-dichloro-1-fluoro-, HCFC-141b
-  categories: air::lower stratosphere + upper troposphere
-  amount: 1.07e-09
-
-- name: Ethane, 1,1-dichloro-1-fluoro-, HCFC-141b
+- name: 1,1-Dichloro-1-fluoroethane
   categories: air::non-urban air or from high stacks
   amount: 1.07e-09
 
-- name: Ethane, 1,1-dichloro-1-fluoro-, HCFC-141b
+- name: 1,1-Dichloro-1-fluoroethane
   categories: air::urban air close to ground
   amount: 1.07e-09
 
-- name: Ethane, 1,2-dichloro-1,1,2,2-tetrafluoro-, CFC-114
+- name: 1,2-Dichloro-1,1,2,2-tetrafluoroethane
   categories: air
   amount: 3.64e-09
 
-- name: Ethane, 1,2-dichloro-1,1,2,2-tetrafluoro-, CFC-114
+- name: 1,2-Dichloro-1,1,2,2-tetrafluoroethane
   categories: air::low population density, long-term
   amount: 3.64e-09
 
-- name: Ethane, 1,2-dichloro-1,1,2,2-tetrafluoro-, CFC-114
-  categories: air::lower stratosphere + upper troposphere
-  amount: 3.64e-09
-
-- name: Ethane, 1,2-dichloro-1,1,2,2-tetrafluoro-, CFC-114
+- name: 1,2-Dichloro-1,1,2,2-tetrafluoroethane
   categories: air::non-urban air or from high stacks
   amount: 3.64e-09
 
-- name: Ethane, 1,2-dichloro-1,1,2,2-tetrafluoro-, CFC-114
+- name: 1,2-Dichloro-1,1,2,2-tetrafluoroethane
   categories: air::urban air close to ground
   amount: 3.64e-09
 
-- name: Ethane, 1-chloro-1,1-difluoro-, HCFC-142b
+- name: 1-Chloro-1,1-difluoroethane
   categories: air
   amount: 6.76e-10
 
-- name: Ethane, 1-chloro-1,1-difluoro-, HCFC-142b
+- name: 1-Chloro-1,1-difluoroethane
   categories: air::low population density, long-term
   amount: 6.76e-10
 
-- name: Ethane, 1-chloro-1,1-difluoro-, HCFC-142b
-  categories: air::lower stratosphere + upper troposphere
-  amount: 6.76e-10
-
-- name: Ethane, 1-chloro-1,1-difluoro-, HCFC-142b
+- name: 1-Chloro-1,1-difluoroethane
   categories: air::non-urban air or from high stacks
   amount: 6.76e-10
 
-- name: Ethane, 1-chloro-1,1-difluoro-, HCFC-142b
+- name: 1-Chloro-1,1-difluoroethane
   categories: air::urban air close to ground
   amount: 6.76e-10
 
-- name: Ethane, chloropentafluoro-, CFC-115
+- name: Monochloropentafluoroethane
   categories: air
   amount: 3.99e-09
 
-- name: Ethane, chloropentafluoro-, CFC-115
+- name: Monochloropentafluoroethane
   categories: air::low population density, long-term
   amount: 3.99e-09
 
-- name: Ethane, chloropentafluoro-, CFC-115
-  categories: air::lower stratosphere + upper troposphere
-  amount: 3.99e-09
-
-- name: Ethane, chloropentafluoro-, CFC-115
+- name: Monochloropentafluoroethane
   categories: air::non-urban air or from high stacks
   amount: 3.99e-09
 
-- name: Ethane, chloropentafluoro-, CFC-115
+- name: Monochloropentafluoroethane
   categories: air::urban air close to ground
   amount: 3.99e-09
 
@@ -144,10 +116,6 @@
 
 - name: Methane, bromo-, Halon 1001
   categories: air::low population density, long-term
-  amount: 7.46e-09
-
-- name: Methane, bromo-, Halon 1001
-  categories: air::lower stratosphere + upper troposphere
   amount: 7.46e-09
 
 - name: Methane, bromo-, Halon 1001
@@ -167,10 +135,6 @@
   amount: 5.16e-08
 
 - name: Methane, bromochlorodifluoro-, Halon 1211
-  categories: air::lower stratosphere + upper troposphere
-  amount: 5.16e-08
-
-- name: Methane, bromochlorodifluoro-, Halon 1211
   categories: air::non-urban air or from high stacks
   amount: 5.16e-08
 
@@ -187,10 +151,6 @@
   amount: 1.15e-07
 
 - name: Methane, bromotrifluoro-, Halon 1301
-  categories: air::lower stratosphere + upper troposphere
-  amount: 1.15e-07
-
-- name: Methane, bromotrifluoro-, Halon 1301
   categories: air::non-urban air or from high stacks
   amount: 1.15e-07
 
@@ -198,102 +158,70 @@
   categories: air::urban air close to ground
   amount: 1.15e-07
 
-- name: Methane, chlorodifluoro-, HCFC-22
+- name: Chlorodifluoromethane
   categories: air
   amount: 4.83e-10
 
-- name: Methane, chlorodifluoro-, HCFC-22
+- name: Chlorodifluoromethane
   categories: air::low population density, long-term
   amount: 4.83e-10
 
-- name: Methane, chlorodifluoro-, HCFC-22
-  categories: air::lower stratosphere + upper troposphere
-  amount: 4.83e-10
-
-- name: Methane, chlorodifluoro-, HCFC-22
+- name: Chlorodifluoromethane
   categories: air::non-urban air or from high stacks
   amount: 4.83e-10
 
-- name: Methane, chlorodifluoro-, HCFC-22
+- name: Chlorodifluoromethane
   categories: air::urban air close to ground
   amount: 4.83e-10
 
-- name: Methane, dichlorodifluoro-, CFC-12
+- name: Dichlorodifluoromethane
   categories: air
   amount: 7.34e-09
 
-- name: Methane, dichlorodifluoro-, CFC-12
+- name: Dichlorodifluoromethane
   categories: air::low population density, long-term
   amount: 7.34e-09
 
-- name: Methane, dichlorodifluoro-, CFC-12
-  categories: air::lower stratosphere + upper troposphere
-  amount: 7.34e-09
-
-- name: Methane, dichlorodifluoro-, CFC-12
+- name: Dichlorodifluoromethane
   categories: air::non-urban air or from high stacks
   amount: 7.34e-09
 
-- name: Methane, dichlorodifluoro-, CFC-12
+- name: Dichlorodifluoromethane
   categories: air::urban air close to ground
   amount: 7.34e-09
 
-- name: Methane, monochloro-, R-40
+- name: Chloromethane
   categories: air
   amount: 4.03e-10
 
-- name: Methane, monochloro-, R-40
-  categories: air::low population density, long-term
-  amount: 4.03e-10
-
-- name: Methane, monochloro-, R-40
-  categories: air::lower stratosphere + upper troposphere
-  amount: 4.03e-10
-
-- name: Methane, monochloro-, R-40
-  categories: air::non-urban air or from high stacks
-  amount: 4.03e-10
-
-- name: Methane, monochloro-, R-40
-  categories: air::urban air close to ground
-  amount: 4.03e-10
-
-- name: Methane, tetrachloro-, R-10
+- name: Carbon tetrachloride
   categories: air
   amount: 5.74e-09
 
-- name: Methane, tetrachloro-, R-10
+- name: Carbon tetrachloride
   categories: air::low population density, long-term
   amount: 5.74e-09
 
-- name: Methane, tetrachloro-, R-10
-  categories: air::lower stratosphere + upper troposphere
-  amount: 5.74e-09
-
-- name: Methane, tetrachloro-, R-10
+- name: Carbon tetrachloride
   categories: air::non-urban air or from high stacks
   amount: 5.74e-09
 
-- name: Methane, tetrachloro-, R-10
+- name: Carbon tetrachloride
   categories: air::urban air close to ground
   amount: 5.74e-09
 
-- name: Methane, trichlorofluoro-, CFC-11
+- name: Trichlorofluoromethane
   categories: air
   amount: 7.85e-09
 
-- name: Methane, trichlorofluoro-, CFC-11
+- name: Trichlorofluoromethane
   categories: air::low population density, long-term
   amount: 7.85e-09
 
-- name: Methane, trichlorofluoro-, CFC-11
-  categories: air::lower stratosphere + upper troposphere
-  amount: 7.85e-09
-
-- name: Methane, trichlorofluoro-, CFC-11
+- name: Trichlorofluoromethane
   categories: air::non-urban air or from high stacks
   amount: 7.85e-09
 
-- name: Methane, trichlorofluoro-, CFC-11
+- name: Trichlorofluoromethane
   categories: air::urban air close to ground
   amount: 7.85e-09
