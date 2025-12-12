@@ -1,4 +1,8 @@
 # Changelog
+## 0.9.1 (2025-12-12)
+- Remove CFs for Nitrogen emissions to groundwater due to double-counting. The default CFs for freshwater were kept as recommended in [Ryberg et al.](https://doi.org/10.1016/j.ecolind.2017.12.065)
+- Adapt the PB-LCIA for ecoinvent 3.10.1
+  
 ## 0.9.1 (2025-10-21)
 - Added missing CFs for Nitrogen emissions to groundwater
 
