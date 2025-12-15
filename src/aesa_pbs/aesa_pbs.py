@@ -2,7 +2,7 @@ import functools
 import json
 from pathlib import Path
 
-import brightway2 as bw
+import bw2data as bd
 from bw2io import ExcelLCIAImporter, strategies
 from prettytable import PrettyTable
 
@@ -338,11 +338,11 @@ def add_aesa_pbs(verbose=True):
                 ["nitrogen", "directly fixated"],
             )
         ):
-            if "A_technosphere_flows" not in bw.databases:
+            if "A_technosphere_flows" not in bd.databases:
                 # throw a warning and install the missing database
                 warning_directly_fixated_n()
                 # write new database
-                bw.Database("A_technosphere_flows").write(
+                bd.Database("A_technosphere_flows").write(
                     {
                         ("A_technosphere_flows", "n-fert"): {  # (db name, code)
                             "name": "nitrogen fertilizer",
@@ -359,7 +359,7 @@ def add_aesa_pbs(verbose=True):
                     drop_empty_lines,
                     functools.partial(
                         strategies.link_iterable_by_fields,
-                        other=bw.Database("A_technosphere_flows"),
+                        other=bd.Database("A_technosphere_flows"),
                         kind="biosphere",
                         fields=("name", "categories"),
                     ),

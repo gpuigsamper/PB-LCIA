@@ -1,4 +1,4 @@
-import brightway2 as bw
+import bw2data as bd
 
 
 def get_nitrogenous_fertilizers(db_name: str) -> list:
@@ -19,7 +19,7 @@ def get_nitrogenous_fertilizers(db_name: str) -> list:
         List of activities producing nitrogenous fertilizers
     """
     list_to_return = []
-    for act in bw.Database(db_name):
+    for act in bd.Database(db_name):
         for classification in act["classifications"]:
             if "cpc" in classification[0].lower() and classification[1].startswith(
                 "3461"
@@ -42,14 +42,14 @@ def update_nitrogen_fertilizer_exchanges(activities: list, show_updated=True) ->
     show_updated : bool, optional
         Whether to show the set of updated activities, by default True
     """
-    flow = [flow for flow in bw.Database("A_technosphere_flows")][
+    flow = [flow for flow in bd.Database("A_technosphere_flows")][
         0
     ]  # select the only flow in the `A_technosphere_flows` db
 
     def is_exchange(exc):
-        return bw.get_activity(exc["input"])[
+        return bd.get_activity(exc["input"])[
             "name"
-        ] == "nitrogen fertilizer" and bw.get_activity(exc["input"])["categories"] == (
+        ] == "nitrogen fertilizer" and bd.get_activity(exc["input"])["categories"] == (
             "inventory",
         )
 
@@ -59,14 +59,14 @@ def update_nitrogen_fertilizer_exchanges(activities: list, show_updated=True) ->
         if not list(filter(is_exchange, [exc for exc in act.biosphere()])):
             act.new_exchange(
                 **{
-                    "name": bw.get_activity(flow)["name"],
+                    "name": bd.get_activity(flow)["name"],
                     "input": (
-                        bw.get_activity(flow)["database"],
-                        bw.get_activity(flow)["code"],
+                        bd.get_activity(flow)["database"],
+                        bd.get_activity(flow)["code"],
                     ),
                     "type": "biosphere",
                     "amount": 1,
-                    "unit": bw.get_activity(flow)["unit"],
+                    "unit": bd.get_activity(flow)["unit"],
                 }
             ).save()
             updated_act.add(act)
@@ -93,9 +93,9 @@ def remove_nitrogen_fertilizer_exchanges(activities: list, show_cleaned=True) ->
     """
 
     def is_exchange(exc):
-        return bw.get_activity(exc["input"])[
+        return bd.get_activity(exc["input"])[
             "name"
-        ] == "nitrogen fertilizer" and bw.get_activity(exc["input"])["categories"] == (
+        ] == "nitrogen fertilizer" and bd.get_activity(exc["input"])["categories"] == (
             "inventory",
         )
 
