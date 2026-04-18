@@ -2,6 +2,7 @@ import functools
 import json
 from pathlib import Path
 
+# import brightway2 as bw
 import bw2data as bd
 from bw2io import ExcelLCIAImporter, strategies
 from prettytable import PrettyTable
@@ -372,6 +373,8 @@ def add_aesa_pbs(verbose=True):
                 method.strategies + [drop_empty_lines], verbose=verbose
             )
         
+        if len(list(method.unlinked)) != 0:
+            print(list(method.unlinked))
         # confirm that everything is correctly linked
         assert (
             len(list(method.unlinked)) == 0
